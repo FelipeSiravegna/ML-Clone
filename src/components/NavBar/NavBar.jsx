@@ -30,9 +30,9 @@ export default function NavBar(){
                     <p className={style.menuItem}>Ayuda</p>
                 </div>
                 <div className={style.cuentaContainer}>
-                    <p>Creá tu cuenta</p>
-                    <p>Ingresá</p>
-                    <p>Mis compras</p>
+                    <p className={style.menuCuentaItem}>Creá tu cuenta</p>
+                    <p className={style.menuCuentaItem}>Ingresá</p>
+                    <p className={style.menuCuentaItem}>Mis compras</p>
                     <img className={style.carritoImagen} src="src/assets/shopping-cart.png"/>
                 </div>
             </div>

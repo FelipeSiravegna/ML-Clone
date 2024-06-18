@@ -26,6 +26,10 @@
     padding-right: 50px;
 }
 
+.logo:hover{
+    cursor: pointer;
+}
+
 .searchBarContainer{
     width: 37%;
 }
@@ -47,6 +51,10 @@
     height: 38px;
 }
 
+.starPlus:hover{
+    cursor: pointer;
+}
+
 /* BOTTOM ROW */
 
 .bottomRow{
@@ -63,7 +71,7 @@
 }
 
 .direccion:hover{
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .enviarA{
@@ -94,6 +102,14 @@
     gap: 19px;
 }
 
+.menuCuentaItem:hover{
+    cursor: pointer;
+}
+
 .carritoImagen{
     height: 20px;
+}
+
+.carritoImagen:hover{
+    cursor: pointer;
 }
