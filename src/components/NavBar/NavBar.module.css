@@ -8,7 +8,10 @@
     padding-bottom: 10px;
     gap: 12px;
     padding-left: 80px;
+    font-family: 'Mulish';
 }
+
+/* TOP ROW */
 
 .topRow{
     display: flex;
@@ -44,9 +47,53 @@
     height: 38px;
 }
 
+/* BOTTOM ROW */
 
 .bottomRow{
     display: flex;
-    justify-content: center;
     align-items: center;
+    width: 70%;
+    padding-left: 15%;
+}
+
+.direccion{
+    display: flex;
+    flex-direction: column;
+    padding-right: 93px;
+}
+
+.direccion:hover{
+    cursor: pointer;
+}
+
+.enviarA{
+    font-size: 11px;
+}
+
+.ciudad{
+    font-size: 13px;
+}
+
+.menuContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    font-size: 13px;
+    padding-right: 125px;
+}
+
+.menuItem:hover{
+    cursor:pointer;
+}
+
+.cuentaContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 13px;
+    gap: 19px;
+}
+
+.carritoImagen{
+    height: 20px;
 }
